@@ -214,6 +214,8 @@ body {
   color: white !important;
 }
 footer {
+  position: relative;
+  z-index: 10;
   background-color: #fdfdfd;
   color: #7a9ec2;
   padding: 20px;
@@ -221,11 +223,11 @@ footer {
   position: relative;
   bottom: 0;
   width: 100%;
-  opacity: 0; /* Oculto por defecto */
+  opacity: 0;
   transition: opacity 0.5s ease-in-out;
 
   &.show {
-    opacity: 1; /* Visible cuando tiene la clase 'show' */
+    opacity: 1; 
   }
 
   .footer-container {
