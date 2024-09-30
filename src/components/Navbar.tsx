@@ -19,6 +19,7 @@ const Navbar: React.FC = () => {
           />
         </BootstrapNavbar.Brand>
         <div
+          className="vertical-line"
           style={{
             borderLeft: "1px solid #ccc",
             height: "27px",

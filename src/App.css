@@ -250,3 +250,78 @@ footer {
     color: #7a9ec2;
   }
 }
+.vertical-line {
+  display: block;
+
+}
+
+@media (max-width: 1000px) {
+  .vertical-line {
+    display: none;
+  }
+  .containerForm{
+    margin-top: 45px ;
+    margin-bottom: 66px;
+    width:347px
+  }
+  .custom-title{
+    width: 69% !important;
+  }
+  .welcome-section{
+    align-items: center;
+  }
+  .container{
+    max-width: 90% !important;
+  }
+}
+
+@media (max-width: 764px){
+.containerForm{
+    width:445px
+  }
+   .custom-title{
+    width: 54% !important;
+  }
+}
+
+@media (max-width: 500px){
+.welcome-section{
+  align-items: flex-start;
+  padding-left: 38px !important;
+}
+.containerForm {
+        width: 376px;
+    }
+        .custom-title {
+        width: 63% !important;
+    }
+}
+
+@media (max-width:388px){
+.welcome-title {
+    font-size: 36px;
+}
+.line {
+    margin-top: 79px !important;
+    width: 95%;
+}
+.p-4 {
+    padding: 1rem !important;
+}
+    .containerForm {
+        width: 337px;
+          height: 500px;
+  max-height:500px !important;
+    }
+        .custom-title {
+        width: 68% !important;
+    }
+
+    .mb-3{
+      display: flex;
+    flex-wrap: wrap;
+    }
+    .col{
+      padding-bottom: 15px;
+    }
+}

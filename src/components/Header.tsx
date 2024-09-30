@@ -25,11 +25,11 @@ const Header: React.FC = () => {
     <div className="container-fluid  d-flex" style={{ maxHeight: "100vh" }}>
       <div
         className="row flex-grow-1"
-        style={{ maxHeight: "100vh", overflow: "auto" }}
+        style={{ height: "100%", overflowY: "hidden" }}
       >
         <WelcomeSection />
         <ContactForm />
-        <Footer/>
+        <Footer />
       </div>
     </div>
   );
